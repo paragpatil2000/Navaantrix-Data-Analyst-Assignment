@@ -1,7 +1,5 @@
 # Task 3: File Listener and Database Upload
 
-# Task 3: File Listener and Database Upload
-
 This module continuously monitors a folder for newly added CSV files.  
 Whenever a new CSV file is detected, the script automatically reads the file and uploads its content into an SQLite database.  
 Each CSV file is stored in a separate table (auto-created), ensuring there are no column conflicts.
@@ -98,4 +96,5 @@ Any dataset accepted
 
 5. Continuous Monitoring
 Runs a loop until the user presses CTRL + C.
+
 
